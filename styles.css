@@ -1,4 +1,53 @@
 /* styles.css */
-p {
-    color: red;
+.rosu {
+  color: white;
+  background-color: red;
+}
+
+.first {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(241, 176, 187);
+
+}
+
+#oneid {
+  color: blue;
+  font-size: 36px;
+}
+.cool {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(241, 176, 187);
+  font-size: 24px;
+}
+
+#another {
+  background-color: lightgreen;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.clickme {
+  color: white;
+  background-color: black;
+  
+  
+  
   }
+
+  .noclickme {
+    color: black;
+    background-color: yellow;
+    
+  
+
+  }
+
+.noclickme,
+.clickme {
+
+  font-size: 28px;
+  font-variant: 'Times New Roman', Times, serif;
+  display: inline-block;
+  text-decoration: solid;
+
+}
