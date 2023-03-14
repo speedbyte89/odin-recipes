@@ -51,3 +51,20 @@
   text-decoration: solid;
 
 }
+
+.avatar.proportioned {
+  width: 300px;
+  height: auto;
+}
+
+.avatar.distorted {
+  width: 200px;
+  height: 400px;
+}
+
+.container .text {
+  color: red;
+  background-color: yellow;
+  font-size: 20px;
+}
+
