@@ -1,72 +1,17 @@
-/* styles.css */
-.rosu {
-  color: white;
-  background-color: red;
-}
-
-.first {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgb(241, 176, 187);
+body {
+  background-color: aqua;
 
 }
 
-#oneid {
-  color: blue;
-  font-size: 36px;
-}
-.cool {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgb(241, 176, 187);
-  font-size: 24px;
+
+.flex-container {
+  display: flex; 
 }
 
-#another {
-  background-color: lightgreen;
-  font-size: 24px;
-  font-weight: bold;
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 15px;
+   flex: 1;
 }
-
-.clickme {
-  color: white;
-  background-color: black;
-  
-  
-  
-  }
-
-  .noclickme {
-    color: black;
-    background-color: yellow;
-    
-  
-
-  }
-
-.noclickme,
-.clickme {
-
-  font-size: 28px;
-  font-variant: 'Times New Roman', Times, serif;
-  display: inline-block;
-  text-decoration: solid;
-
-}
-
-.avatar.proportioned {
-  width: 300px;
-  height: auto;
-}
-
-.avatar.distorted {
-  width: 200px;
-  height: 400px;
-}
-
-.container .text {
-  color: red;
-  background-color: yellow;
-  font-size: 20px;
-}
-
-
-
